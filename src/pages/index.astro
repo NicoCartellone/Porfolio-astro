@@ -1,0 +1,40 @@
+---
+import FooterSection from "../components/FooterSection.astro";
+import HeroSection from "../components/HeroSection.astro";
+import NavBar from "../components/NavBar.astro";
+import ProjectsSection from "../components/ProjectsSection.astro";
+import AboutSection from "../components/AboutSection.astro";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Nico Cartellone Portfolio</title>
+  </head>
+  <body>
+    <NavBar />
+
+    <main class="scroll-smooth">
+		
+      <div id="home">
+        <HeroSection />
+      </div>
+
+      <div id="projects" class="">
+        <ProjectsSection />
+      </div>
+
+      <div id="about">
+        <AboutSection />
+      </div>
+
+      <div>
+        <FooterSection />
+      </div>
+
+    </main>
+  </body>
+</html>
