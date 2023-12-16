@@ -8,6 +8,7 @@ import Logo from "./Logo.astro";
   >
     <a
       class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
+      href="#home"
     >
       <Logo />
       <span class="ml-3 text-xl">NicoCartellone</span>
@@ -76,9 +77,11 @@ import Logo from "./Logo.astro";
     const targetId = (e.target as HTMLAnchorElement)?.getAttribute('href')?.substring(1);
     const targetSection = targetId ? document.getElementById(targetId) as HTMLElement : null;
 
+    const navbarheight = document.querySelector('header')?.offsetHeight || 0;
+
     if (targetSection) {
       window.scrollTo({
-        top: targetSection.offsetTop,
+        top: targetSection.offsetTop - navbarheight,
         behavior: 'smooth',
       });
     }
