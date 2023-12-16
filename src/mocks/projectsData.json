@@ -1,0 +1,93 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "image": "../../public/legalverse.png",
+        "type": "FRONTEND - BACKEND COMO SERVICIO",
+        "title": "Legalverse",
+        "description": "MVP para cliente que buscaba una plataforma la cual conecte personas con abogados ofreciendo sus servicios.",
+        "techs": ["React", "Vite", "CSS", "Firebase", "Netlify"],
+        "githubLink": "https://github.com/NicoCartellone/LegalVerse",
+        "demoLink": "https://unique-bunny-bf6568.netlify.app/"
+      },
+      {
+        "id": 2,
+        "image": "../../public/conexion-barrial.png",
+        "type": "FRONTEND - BACKEND COMO SERVICIO",
+        "title": "Conexión Barrial",
+        "description": "App barrial para los vecinos puedan alertas situaciones sospechozas o necesidades",
+        "techs": ["React Native", "Expo", "Firebase"],
+        "githubLink": "https://github.com/NicoCartellone/ConexionBarrialApp",
+        "demoLink": ""
+      },
+      {
+        "id": 3,
+        "image": "../../public/tusnotas.png",
+        "type": "FRONTEND - BACKEND COMO SERVICIO",
+        "title": "Tus Notas",
+        "description": "Web app que permite a un usuario crear y almacenar sus notas",
+        "techs": ["React", "Vite", "Tailwind", "Firebase"],
+        "githubLink": "https://github.com/NicoCartellone/MisNotas-React-firebase9",
+        "demoLink": "https://mis-notas-app.netlify.app/login"
+      },
+      {
+        "id": 4,
+        "image": "../../public/tus-peliculas.png",
+        "type": "FRONTEND",
+        "title": "Tus Películas",
+        "description": "Web donde puedes guardar tus películas favoritas y asi saber que pelicula ver en tu proximo finde",
+        "techs": ["React", "CSS", "Netlify"],
+        "githubLink": "https://github.com/NicoCartellone/PelisApp",
+        "demoLink": "https://playful-gingersnap-d771c3.netlify.app/"
+      },{
+        "id": 5,
+        "image": "../../public/githubsearch.png",
+        "type": "FRONTEND",
+        "title": "Devfinder",
+        "description": "Busca un perfil de github y mira sus repositorios y sus proyectos",
+        "techs": ["Next", "Typescript", "Tailwind", "Vercel"],
+        "githubLink": "https://github.com/NicoCartellone/GithubSearch",
+        "demoLink": "https://github-search-eta-puce.vercel.app/"
+      },{
+        "id": 6,
+        "image": "../../public/dolarapp.png",
+        "type": "FULLSTACK",
+        "title": "Dólar Cotización",
+        "description": "Cotizacion del dólar en tiempo real y conversor de pesos Argentinos a dólares, utilizando una api propia",
+        "techs": ["Next", "Typescript", "Tailwind", "Netlify"],
+        "githubLink": "https://github.com/NicoCartellone/Dolar-Frontedmentor",
+        "demoLink": "https://argentina-dolar.netlify.app/"
+      },
+      {
+        "id": 7,
+        "image": "../../public/clima-app.png",
+        "type": "FRONTEND",
+        "title": "Clima App",
+        "description": "App movil que te permite ver y guardar el clima de tu ciudad y de otras ciudades del mundo",
+        "techs": ["React Native", "Expo", "Firebase"],
+        "githubLink": "https://github.com/NicoCartellone/AppClima",
+        "demoLink": ""
+      },
+      {
+        "id": 8,
+        "image": "../../public/dolar-app.png",
+        "type": "FULLSTACK",
+        "title": "Dólar App",
+        "description": "App donde se puede ver la cotización del dólar en tiempo real utilizando una api propia",
+        "techs": ["React Native", "Expo", "Firebase"],
+        "githubLink": "https://github.com/NicoCartellone/DolarApp",
+        "demoLink": ""
+      },
+      {
+        "id": 9,
+        "image": "../../public/apidolar.png",
+        "type": "BACKEND",
+        "title": "Api dólar Argentina",
+        "description": "Api REST utilizando webScrpping para obtener las cotizaciones de los distintos tipos de dólar en Argentna.",
+        "techs": ["Node", "Vercel"],
+        "githubLink": "https://github.com/NicoCartellone/API-DolarArgentina",
+        "demoLink": "https://api-dolar-argentina-nu.vercel.app/"
+      }
+    ]
+  }
+  
