@@ -2,7 +2,7 @@
     "projects": [
       {
         "id": 1,
-        "image": "../../public/legalverse.png",
+        "image": "src/assets/legalverse.png",
         "type": "FRONTEND - BACKEND COMO SERVICIO",
         "title": "Legalverse",
         "description": "MVP para cliente que buscaba una plataforma la cual conecte personas con abogados ofreciendo sus servicios.",
@@ -12,7 +12,7 @@
       },
       {
         "id": 2,
-        "image": "../../public/conexion-barrial.png",
+        "image": "src/assets/conexion-barrial.png",
         "type": "FRONTEND - BACKEND COMO SERVICIO",
         "title": "Conexión Barrial",
         "description": "App barrial para los vecinos puedan alertas situaciones sospechozas o necesidades",
@@ -22,7 +22,7 @@
       },
       {
         "id": 3,
-        "image": "../../public/tusnotas.png",
+        "image": "src/assets/tusnotas.png",
         "type": "FRONTEND - BACKEND COMO SERVICIO",
         "title": "Tus Notas",
         "description": "Web app que permite a un usuario crear y almacenar sus notas",
@@ -32,7 +32,7 @@
       },
       {
         "id": 4,
-        "image": "../../public/tus-peliculas.png",
+        "image": "src/assets/tus-peliculas.png",
         "type": "FRONTEND",
         "title": "Tus Películas",
         "description": "Web donde puedes guardar tus películas favoritas y asi saber que pelicula ver en tu proximo finde",
@@ -41,7 +41,7 @@
         "demoLink": "https://playful-gingersnap-d771c3.netlify.app/"
       },{
         "id": 5,
-        "image": "../../public/githubsearch.png",
+        "image": "src/assets/githubsearch.png",
         "type": "FRONTEND",
         "title": "Devfinder",
         "description": "Busca un perfil de github y mira sus repositorios y sus proyectos",
@@ -50,7 +50,7 @@
         "demoLink": "https://github-search-eta-puce.vercel.app/"
       },{
         "id": 6,
-        "image": "../../public/dolarapp.png",
+        "image": "src/assets/dolarapp.png",
         "type": "FULLSTACK",
         "title": "Dólar Cotización",
         "description": "Cotizacion del dólar en tiempo real y conversor de pesos Argentinos a dólares, utilizando una api propia",
@@ -60,7 +60,7 @@
       },
       {
         "id": 7,
-        "image": "../../public/clima-app.png",
+        "image": "src/assets/clima-app.png",
         "type": "FRONTEND",
         "title": "Clima App",
         "description": "App movil que te permite ver y guardar el clima de tu ciudad y de otras ciudades del mundo",
@@ -70,7 +70,7 @@
       },
       {
         "id": 8,
-        "image": "../../public/dolar-app.png",
+        "image": "src/assets/dolar-app.png",
         "type": "FULLSTACK",
         "title": "Dólar App",
         "description": "App donde se puede ver la cotización del dólar en tiempo real utilizando una api propia",
@@ -80,7 +80,7 @@
       },
       {
         "id": 9,
-        "image": "../../public/apidolar.png",
+        "image": "src/assets/apidolar.png",
         "type": "BACKEND",
         "title": "Api dólar Argentina",
         "description": "Api REST utilizando webScrpping para obtener las cotizaciones de los distintos tipos de dólar en Argentna.",
