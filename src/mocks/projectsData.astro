@@ -1,8 +1,28 @@
-{
-    "projects": [
+---
+interface Project {
+  id: number;
+  image: string;
+  type: string;
+  title: string;
+  description: string;
+  techs: string[];
+  githubLink: string;
+  demoLink: string;
+}
+
+import legalverse from "../assets/legalverse.png";
+import conexionBarrial from "../assets/conexion-barrial.png";
+import tusNotas from "../assets/tusnotas.png";
+import tusPeliculas from "../assets/tus-peliculas.png";
+import githubSearch from "../assets/githubsearch.png";
+import dolarApp from "../assets/dolarapp.png";
+import climaApp from "../assets/clima-app.png";
+import dolarApi from "../assets/apidolar.png";
+
+export const projects: Project[] = [
       {
         "id": 1,
-        "image": "/src/assets/legalverse.png",
+        "image": `${legalverse.src}`,
         "type": "FRONTEND - BACKEND COMO SERVICIO",
         "title": "Legalverse",
         "description": "MVP para cliente que buscaba una plataforma la cual conecte personas con abogados ofreciendo sus servicios.",
@@ -12,7 +32,7 @@
       },
       {
         "id": 2,
-        "image": "/src/assets/conexion-barrial.png",
+        "image": `${conexionBarrial.src}`,
         "type": "FRONTEND - BACKEND COMO SERVICIO",
         "title": "Conexión Barrial",
         "description": "App barrial para los vecinos puedan alertas situaciones sospechozas o necesidades",
@@ -22,7 +42,7 @@
       },
       {
         "id": 3,
-        "image": "/src/assets/tusnotas.png",
+        "image": `${tusNotas.src}`,
         "type": "FRONTEND - BACKEND COMO SERVICIO",
         "title": "Tus Notas",
         "description": "Web app que permite a un usuario crear y almacenar sus notas",
@@ -32,7 +52,7 @@
       },
       {
         "id": 4,
-        "image": "/src/assets/tus-peliculas.png",
+        "image": `${tusPeliculas.src}`,
         "type": "FRONTEND",
         "title": "Tus Películas",
         "description": "Web donde puedes guardar tus películas favoritas y asi saber que pelicula ver en tu proximo finde",
@@ -41,7 +61,7 @@
         "demoLink": "https://playful-gingersnap-d771c3.netlify.app/"
       },{
         "id": 5,
-        "image": "/src/assets/githubsearch.png",
+        "image": `${githubSearch.src}`,
         "type": "FRONTEND",
         "title": "Devfinder",
         "description": "Busca un perfil de github y mira sus repositorios y sus proyectos",
@@ -50,7 +70,7 @@
         "demoLink": "https://github-search-eta-puce.vercel.app/"
       },{
         "id": 6,
-        "image": "/src/assets/dolarapp.png",
+        "image": `${dolarApp.src}`,
         "type": "FULLSTACK",
         "title": "Dólar Cotización",
         "description": "Cotizacion del dólar en tiempo real y conversor de pesos Argentinos a dólares, utilizando una api propia",
@@ -60,7 +80,7 @@
       },
       {
         "id": 7,
-        "image": "/src/assets/clima-app.png",
+        "image": `${legalverse.src}`,
         "type": "FRONTEND",
         "title": "Clima App",
         "description": "App movil que te permite ver y guardar el clima de tu ciudad y de otras ciudades del mundo",
@@ -70,7 +90,7 @@
       },
       {
         "id": 8,
-        "image": "/src/assets/dolar-app.png",
+        "image": `${climaApp.src}`,
         "type": "FULLSTACK",
         "title": "Dólar App",
         "description": "App donde se puede ver la cotización del dólar en tiempo real utilizando una api propia",
@@ -80,7 +100,7 @@
       },
       {
         "id": 9,
-        "image": "/src/assets/apidolar.png",
+        "image": `${dolarApi.src}`,
         "type": "BACKEND",
         "title": "Api dólar Argentina",
         "description": "Api REST utilizando webScrpping para obtener las cotizaciones de los distintos tipos de dólar en Argentna.",
@@ -89,5 +109,4 @@
         "demoLink": "https://api-dolar-argentina-nu.vercel.app/"
       }
     ]
-  }
-  
+  ---

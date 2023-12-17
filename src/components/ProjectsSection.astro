@@ -10,7 +10,7 @@ interface ProjectsData {
   githubLink: string;
 }
 
-import ProjectsData from '../mocks/projectsData.json'
+import { projects } from '../mocks/projectsData.astro'
 import ProjectCard from './ProjectCard.astro';
 ---
 
@@ -24,7 +24,7 @@ import ProjectCard from './ProjectCard.astro';
     <div class="flex flex-wrap -m-4">
 
       {
-        ProjectsData.projects.map(({image, type, title, description, techs, demoLink, githubLink}:ProjectsData) => (
+        projects.map(({image, type, title, description, techs, demoLink, githubLink}: ProjectsData) => (
           <ProjectCard
             image={image}
             type={type}
