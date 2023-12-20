@@ -1,15 +1,5 @@
 ---
-interface ProjectsData {
-  id: number;
-  image: string;
-  type: string;
-  title: string;
-  description: string;
-  techs: string[];
-  demoLink: string;
-  githubLink: string;
-}
-
+import { type Project } from '../mocks/projectsData.astro'
 import { projects } from '../mocks/projectsData.astro'
 import ProjectCard from './ProjectCard.astro';
 ---
@@ -24,7 +14,7 @@ import ProjectCard from './ProjectCard.astro';
     <div class="flex flex-wrap -m-4">
 
       {
-        projects.map(({image, type, title, description, techs, demoLink, githubLink}: ProjectsData) => (
+        projects.map(({image, type, title, description, techs, demoLink, githubLink}: Project) => (
           <ProjectCard
             image={image}
             type={type}
