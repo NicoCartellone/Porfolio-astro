@@ -4,6 +4,8 @@ import HeroSection from "../components/HeroSection.astro";
 import NavBar from "../components/NavBar.astro";
 import ProjectsSection from "../components/ProjectsSection.astro";
 import AboutSection from "../components/AboutSection.astro";
+import ChatBot from '../components/ChatBot';
+const API_KEY = import.meta.env.PUBLIC_COHERE_API_KEY;
 ---
 
 <html lang="en">
@@ -19,11 +21,14 @@ import AboutSection from "../components/AboutSection.astro";
 
     <main>
       <HeroSection />
-
       <ProjectsSection />
-
       <AboutSection />
-
+      <section>
+        <ChatBot 
+          client:load 
+          apiKey={API_KEY}
+        />
+      </section>
       <FooterSection />
     </main>
   </body>
