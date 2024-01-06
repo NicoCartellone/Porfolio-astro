@@ -23,7 +23,7 @@ const ANSWERS = {
   ),
   contacto: (
     <p>
-      Si quieres ponerte en contacto conmigo, puedes hacerlo a través de mi{" "}
+      Si quieres ponerte en contacto conmigo, puedes hacerlo a través de mi
       <a
         className="underline"
         href="https://www.linkedin.com/in/nicolas-cartellone/"
@@ -31,7 +31,7 @@ const ANSWERS = {
         target="_blank"
       >
         LinkedIn
-      </a>{" "}
+      </a>
       <br />
       o mediante mi correo electrónico <br />
       <a 
@@ -124,15 +124,6 @@ export default function ChatBot({ apiKey }: Props) {
   const [isChatOpen, setIsChatOpen] = useState<boolean>(false);
   const container = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
-    const timeoutId = setTimeout(() => {
-      setIsChatOpen(true);
-    }, 3000);
-
-    return () => clearTimeout(timeoutId);
-  }, []);
-
-
   async function handleSubmit(event: React.FormEvent) {
     event.preventDefault();
 
@@ -207,8 +198,8 @@ export default function ChatBot({ apiKey }: Props) {
                   stroke-linejoin="round"
                 ></g>
                 <g id="SVGRepo_iconCarrier">
-                  {" "}
-                  <title>Close</title>{" "}
+                  
+                  <title>Close</title>
                   <g
                     id="Page-1"
                     stroke="none"
@@ -216,9 +207,7 @@ export default function ChatBot({ apiKey }: Props) {
                     fill="none"
                     fill-rule="evenodd"
                   >
-                    {" "}
                     <g id="Close">
-                      {" "}
                       <rect
                         id="Rectangle"
                         fill-rule="nonzero"
@@ -227,8 +216,7 @@ export default function ChatBot({ apiKey }: Props) {
                         width="24"
                         height="24"
                       >
-                        {" "}
-                      </rect>{" "}
+                      </rect>
                       <line
                         x1="16.9999"
                         y1="7"
@@ -239,8 +227,7 @@ export default function ChatBot({ apiKey }: Props) {
                         stroke-width="2"
                         stroke-linecap="round"
                       >
-                        {" "}
-                      </line>{" "}
+                      </line>
                       <line
                         x1="7.00006"
                         y1="7"
@@ -251,10 +238,9 @@ export default function ChatBot({ apiKey }: Props) {
                         stroke-width="2"
                         stroke-linecap="round"
                       >
-                        {" "}
-                      </line>{" "}
-                    </g>{" "}
-                  </g>{" "}
+                      </line>
+                    </g>
+                  </g>
                 </g>
               </svg>
             </button>
@@ -297,7 +283,7 @@ export default function ChatBot({ apiKey }: Props) {
           </form>
         </div>
       ) : (
-        <div className="fixed bottom-10 right-10 z-50 shadow-lg bg-indigo-500 p-2 rounded-full">
+        <div className="fixed bottom-10 right-10 z-50 shadow-lg bg-indigo-700 p-2 rounded-full">
           <button onClick={() => setIsChatOpen(true)}>
             <svg
               className="w-12 h-10"
@@ -312,35 +298,35 @@ export default function ChatBot({ apiKey }: Props) {
                 stroke-linejoin="round"
               ></g>
               <g id="SVGRepo_iconCarrier">
-                {" "}
+                
                 <path
                   stroke="#fff"
                   stroke-linejoin="round"
                   stroke-width="2"
                   d="M9.88235 15C13.261 15 16 12.5376 16 9.5C16 6.46243 13.261 4 9.88235 4C6.50367 4 3.76471 6.46243 3.76471 9.5C3.76471 10.3179 3.96327 11.094 4.31942 11.7917L3 15L6.82353 14.2642C7.72335 14.7322 8.76806 15 9.88235 15Z"
-                ></path>{" "}
+                ></path>
                 <path
                   stroke="#fff"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   stroke-width="2"
                   d="M10.8042 18.1242C11.759 18.6784 12.8966 19 14.1176 19C15.2319 19 16.2766 18.7322 17.1765 18.2642L21 19L19.6806 15.7917C20.0367 15.094 20.2353 14.3179 20.2353 13.5C20.2353 12.2553 19.7754 11.1071 19 10.1854C18.251 9.29505 17.2076 8.61598 16 8.26526"
-                ></path>{" "}
+                ></path>
                 <circle
                   r="1"
                   fill="#fff"
                   transform="matrix(-1 0 0 1 13 9.5)"
-                ></circle>{" "}
+                ></circle>
                 <circle
                   r="1"
                   fill="#fff"
                   transform="matrix(-1 0 0 1 10 9.5)"
-                ></circle>{" "}
+                ></circle>
                 <circle
                   r="1"
                   fill="#fff"
                   transform="matrix(-1 0 0 1 7 9.5)"
-                ></circle>{" "}
+                ></circle>
               </g>
             </svg>
           </button>
