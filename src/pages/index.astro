@@ -4,7 +4,7 @@ import HeroSection from "../components/HeroSection.astro";
 import NavBar from "../components/NavBar.astro";
 import ProjectsSection from "../components/ProjectsSection.astro";
 import AboutSection from "../components/AboutSection.astro";
-import ChatBot from '../components/ChatBot';
+import ChatBot from "../components/ChatBot";
 const API_KEY = import.meta.env.PUBLIC_COHERE_API_KEY;
 ---
 
@@ -16,20 +16,14 @@ const API_KEY = import.meta.env.PUBLIC_COHERE_API_KEY;
     <meta name="generator" content={Astro.generator} />
     <title>Nico Cartellone Portfolio</title>
   </head>
-  <body>
+  <body class="bg-[#fcfcff]">
     <NavBar />
-
     <main>
       <HeroSection />
       <ProjectsSection />
       <AboutSection />
-      <section>
-        <ChatBot 
-          client:load 
-          apiKey={API_KEY}
-        />
-      </section>
-      <FooterSection />
+      <ChatBot client:load apiKey={API_KEY} />
     </main>
+    <FooterSection />
   </body>
 </html>
